@@ -10,7 +10,7 @@ export default function Home() {
 
       <div id="navbar-wrap" className="bg-slate-200 fixed w-screen z-50">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-8">
-          <Link className="py-4 text-slate-800 text-xl font-bold" href="portfolio/#">Portfolio</Link>
+          <Link className="py-4 text-slate-800 text-xl font-bold" href="#">Portfolio</Link>
 
           <div className="lg:hidden inline-block relative group/smnav text-slate-700 font-medium text-center">
             <button className="text-center py-4 px-2 hover:text-slate-900">Menu</button>
