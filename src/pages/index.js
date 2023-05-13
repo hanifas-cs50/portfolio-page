@@ -15,16 +15,16 @@ export default function Home() {
           <div className="lg:hidden inline-block relative group/smnav text-slate-700 font-medium text-center">
             <button className="text-center py-4 px-2 hover:text-slate-900">Menu</button>
             <div className="hidden absolute right-0 group-hover/smnav:flex flex-col bg-slate-200 rounded-b-md divide-y divide-slate-700 border-solid border-2 border-slate-700">
-              <Link className="px-6 py-2 hover:text-slate-900" href="portfolio/#">Home</Link>
-              <Link className="px-6 py-2 hover:text-slate-900" href="portfolio/#projects" scroll={false}>Projects</Link>
-              <Link className="px-6 py-2 hover:text-slate-900 rounded-b-md" href="portfolio/#contact" scroll={false}>Contact</Link>
+              <Link className="px-6 py-2 hover:text-slate-900" href="#">Home</Link>
+              <Link className="px-6 py-2 hover:text-slate-900" href="#projects" scroll={false}>Projects</Link>
+              <Link className="px-6 py-2 hover:text-slate-900 rounded-b-md" href="#contact" scroll={false}>Contact</Link>
             </div>
           </div>
 
           <div className="text-slate-700 font-medium my-auto hidden lg:flex">
-            <Link className="px-4 hover:text-slate-900" href="portfolio/#">Home</Link>
-            <Link className="px-4 hover:text-slate-900" href="portfolio/#projects" scroll={false}>Projects</Link>
-            <Link className="pl-4 hover:text-slate-900" href="portfolio/#contact" scroll={false}>Contact</Link>
+            <Link className="px-4 hover:text-slate-900" href="#">Home</Link>
+            <Link className="px-4 hover:text-slate-900" href="#projects" scroll={false}>Projects</Link>
+            <Link className="pl-4 hover:text-slate-900" href="#contact" scroll={false}>Contact</Link>
           </div>
         </div>
       </div>
