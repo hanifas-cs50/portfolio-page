@@ -8,7 +8,7 @@ export default function Home() {
 
     <div className="min-h-screen flex flex-col bg-gradient-to-tl from-sky-500 to-fuchsia-500 text-white overflow-x-hidden">
 
-      <div id="navbar-wrap" className="bg-slate-200 fixed w-screen">
+      <div id="navbar-wrap" className="bg-slate-200 fixed w-screen z-50">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-8">
           <Link className="py-4 text-slate-800 text-xl font-bold" href="portfolio/#">Portfolio</Link>
 
@@ -33,10 +33,10 @@ export default function Home() {
 
       <div id="intro-wrap" className="bg-white w-screen">
         <div className="flex lg:flex-row flex-col content-center max-w-screen-lg mx-auto py-8 lg:gap-x-12">
-          <div className="flex-none w-fit h-full group/intropic mx-auto lg:mx-0 mb-4 lg:mb-0 order-first lg:order-last">
-            <Image fill className="w-40 lg:w-[28rem] my-auto aspect-square object-cover transition-all duration-500 delay-150 ease-in-out rounded-3xl group-hover/intropic:rounded-full" src="/photo2.jpg" alt="wallpaper_pic.jpg" />
+          <div className="relative overflow-hidden flex-none w-40 lg:w-[28rem] h-40 lg:h-[28rem] group/intropic mx-auto lg:mx-0 mb-4 lg:mb-0 order-first lg:order-last">
+            <Image fill className="my-auto aspect-square object-cover transition-all duration-500 delay-150 ease-in-out rounded-3xl group-hover/intropic:rounded-full" src="/photo2.jpg" alt="wallpaper_pic.jpg" />
           </div>
-          <div className="my-auto px-16 lg:px-none order-last lg:order-first">
+          <div className="my-auto px-16 lg:px-0 lg:px-none order-last lg:order-first">
             <h2 className="text-slate-800 text-6xl font-bold mb-3 text-center lg:text-justify">Hello there<span className="hidden lg:inline-block">...</span></h2>
             <p className="text-slate-700 text-md text-center lg:text-justify">
               <span className="block font-medium text-base mb-1">Welcome to my Website!</span>
