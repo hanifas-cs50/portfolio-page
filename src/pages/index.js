@@ -91,7 +91,7 @@ export default function Home() {
 
       <div id="contact" className="bg-slate-700 w-screen text-white/75">
         <div className="max-w-screen-md mx-auto my-4 flex flex-col justify-center items-center">
-          <h2 className="font-semibold cursor-pointer hover:text-white -mb-0.5">@hanif424</h2>
+          <h2 className="font-semibold cursor-pointer hover:text-white -mb-0.5">@hanifas424</h2>
           <div className="text-white/50">
             <Link className="mx-2 hover:text-white" href="https://github.com/hanifas-cs50/">Github</Link>
             <Link className="mx-2 hover:text-white" href="https://www.linkedin.com/in/hanif-as-976aaa247/">LinkedIn</Link>
